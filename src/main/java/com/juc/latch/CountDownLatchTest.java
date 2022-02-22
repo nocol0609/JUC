@@ -41,7 +41,7 @@ public class CountDownLatchTest {
         //休眠一秒
         Thread.sleep(1000);
 
-        //启动5个任务线程
+        //启动5个任务线程1
         for(int i=0;i<5;i++){
             final int taskId=i;
             Thread task=new Thread(()->{
